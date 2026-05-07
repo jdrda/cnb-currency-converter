@@ -1,0 +1,49 @@
+{
+  "name": "jdrda/cnb-currency-converter",
+  "description": "PHP currency converter using official Czech National Bank daily exchange rates and Symfony Cache.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "cnb",
+    "currency converter",
+    "currency conversion",
+    "exchange rates",
+    "czech national bank",
+    "czk",
+    "forex",
+    "symfony cache"
+  ],
+  "homepage": "https://github.com/jdrda/cnb-currency-converter",
+  "support": {
+    "email": "jdrda@outlook.com",
+    "issues": "https://github.com/jdrda/cnb-currency-converter/issues",
+    "source": "https://github.com/jdrda/cnb-currency-converter"
+  },
+  "authors": [
+    {
+      "name": "Jan Drda",
+      "email": "jdrda@outlook.com",
+      "role": "chief developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "psr/cache": "^1.0 || ^2.0 || ^3.0",
+    "symfony/cache": "^4.4 || ^5.4 || ^6.4 || ^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CnbCurrencyConverter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CnbCurrencyConverter\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
